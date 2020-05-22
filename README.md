@@ -1,6 +1,6 @@
 ### Hilite
 
-[Screenshot](./Screenshot.png)
+![Screenshot](https://github.com/bogdanbolchis/hilite/blob/master/Screenshot.png)
 
 Hilite is a custom iA Writer template, based on the default Github template that ships with iA Writer. 
 

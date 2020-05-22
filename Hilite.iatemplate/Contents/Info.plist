@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.nonexistent.hilite</string>
+	<key>CFBundleName</key>
+	<string>Hilite</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>IATemplateDocumentFile</key>
+	<string>document</string>
+	<key>IATemplateFooterHeight</key>
+	<integer>90</integer>
+	<key>IATemplateHeaderHeight</key>
+	<integer>90</integer>
+	<key>IATemplateDescription</key>
+	<string>Based on iA Writer's default GitHub template. Uses highlight.js. Shows a Copy Code to Clipboard button.</string>
+	<key>IATemplateAuthor</key>
+	<string>Bogdan Bolchis</string>
+	<key>IATemplateAuthorURL</key>
+	<string>nonexistent.net</string>
+</dict>
+</plist>

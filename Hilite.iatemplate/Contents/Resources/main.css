@@ -1,0 +1,48 @@
+pre {
+  position: relative;
+}
+
+.copy-button {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  display: inline-block;
+  padding: 0px;
+  box-sizing: border-box;
+  min-width: 48px;
+  min-height: 32px;
+  cursor: pointer;
+  color: #24292e;
+  border: 1px solid rgba(27,31,35,.2);
+  border-radius: 3px;
+  background-color: #eff3f6;
+  background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+  opacity: 0;
+	transition: opacity 250ms ease-in-out;
+}
+
+.copy-button.is-visible {
+  opacity: 1;
+}
+
+.copy-button:active {
+  background-color: #e9ecef;
+  background-image: none;
+  border-color: rgba(27,31,35,.35);
+  box-shadow: inset 0 .15em .3em rgba(27,31,35,.15);
+}
+
+.copy-button:hover {
+  background-color: #e6ebf1;
+  background-image: linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%);
+  background-position: -.5em;
+  border-color: rgba(27,31,35,.35);
+}
+
+.copy-button-image {
+  min-width: 14px;
+  min-height: 16px;
+  background-image: url("assets/clippy.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
